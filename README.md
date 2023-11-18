@@ -1,6 +1,6 @@
 # Hosting a Full-Stack Application
 
-### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
+### Using Udagram app
 
 ---
 
@@ -16,16 +16,17 @@ The project will also include writing documentation and runbooks covering the op
 
 This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
 
-
+## Getting set up
+- clone the project - `git clone https://github.com/huynhbacong/nd0067-c4-deployment-process-project-starter.git`
 
 ### Dependencies
 
 ```
-- Node v14.15.1 (LTS) or more recent. While older versions can work it is advisable to keep node to latest LTS version
+- Node v16.20.2
 
-- npm 6.14.8 (LTS) or more recent, Yarn can work but was not tested for this project
+- npm 8.19.4
 
-- AWS CLI v2, v1 can work but was not tested for this project
+- AWS CLI v2
 
 - A RDS database running Postgres.
 
@@ -67,6 +68,28 @@ The e2e tests are using Protractor and Jasmine.
 - [Node](https://nodejs.org) - Javascript Runtime
 - [Express](https://expressjs.com/) - Javascript API Framework
 
-## License
+## Deploy 
+### Configures
+- [Circle CI configuring file](.circleci/config.yml)
+- [Package json root file](package.json)
 
-[License](LICENSE.txt)
+### Link to this hosted working frontend application:
+- http://cong-udagram.s3-website-us-east-1.amazonaws.com/
+
+## Screenshots 
+- Last successful CircleCi build 
+    1. [Build image](screenshots/build-success.png)
+    1. [Build - hold - deploy flow image](screenshots/build-hold-deploy.png)
+    1. [Deploy image](screenshots/deploy-success.png)
+
+- AWS 
+    1. [AWS RDS database overview image](screenshots/aws-rds-database-overview.png)
+    1. [AWS ElasticBeanstalk image](screenshots/aws-eb-overview.png)
+    1. [AWS S3 image](screenshots/aws-s3-overview.png)
+
+## Documents
+- An architecture diagram showing a high-level overview of the infrastructure [architecture diagram](docs/Udacity-highlevel-architecture.drawio)
+- A diagram showing the overview of the pipeline [pipeline diagram](docs/pipeline-flow%20(1).drawio)
+- [Infrastructure_description.md](docs/Infrastructure_description.md)
+- [Pipeline_description.md](docs/Pipeline_description.md)
+- [Application_dependencies.md](docs/Application_dependencies.md)

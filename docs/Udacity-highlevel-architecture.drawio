@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2023-11-18T17:55:32.650Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="k_Opl0Q4lrPF0lCEy2O5" version="21.6.8" type="device">
+  <diagram name="Page-1" id="b0Kwj3LbZ1GqtQ85QO7V">
+    <mxGraphModel dx="960" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e4haScHRnJKcSVeru6mm-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.pinimg.com/474x/0a/7a/4d/0a7a4d0b9d934f477adc4bdb2fbdd1dd.jpg;" vertex="1" parent="1">
+          <mxGeometry x="720" y="430" width="84.45" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="e4haScHRnJKcSVeru6mm-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/amazon-s3-simple-storage-service.svg;" vertex="1" parent="1">
+          <mxGeometry x="490" y="430" width="92" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="e4haScHRnJKcSVeru6mm-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://ih1.redbubble.net/image.532698600.1866/st,small,507x507-pad,600x600,f8f8f8.jpg;" vertex="1" parent="1">
+          <mxGeometry x="270" y="430" width="92" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="e4haScHRnJKcSVeru6mm-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://blog.shanelee.name/content/images/2017/07/rds.png;" vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="92" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="e4haScHRnJKcSVeru6mm-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e4haScHRnJKcSVeru6mm-2" target="e4haScHRnJKcSVeru6mm-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="400" as="sourcePoint" />
+            <mxPoint x="420" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4haScHRnJKcSVeru6mm-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="475.5" as="sourcePoint" />
+            <mxPoint x="360" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4haScHRnJKcSVeru6mm-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="475.5" as="sourcePoint" />
+            <mxPoint x="132" y="475.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4haScHRnJKcSVeru6mm-9" value="User goes on site" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="440" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e4haScHRnJKcSVeru6mm-10" value="Fetch data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e4haScHRnJKcSVeru6mm-11" value="Saves data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="440" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e4haScHRnJKcSVeru6mm-12" value="End user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="732.22" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e4haScHRnJKcSVeru6mm-13" value="Angular Hosted on S3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="530" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e4haScHRnJKcSVeru6mm-14" value="Cong-udagram api on Elastic Beanstalk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="252" y="530" width="128" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e4haScHRnJKcSVeru6mm-15" value="AWS RDS hosting postgres" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="34" y="530" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e4haScHRnJKcSVeru6mm-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="370" width="590" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="e4haScHRnJKcSVeru6mm-17" value="AWS cloud" style="text;html=1;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="360" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
