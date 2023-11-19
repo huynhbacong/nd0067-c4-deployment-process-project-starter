@@ -81,6 +81,7 @@ The e2e tests are using Protractor and Jasmine.
     1. [Build image](screenshots/build-success.png)
     1. [Build - hold - deploy flow image](screenshots/build-hold-deploy.png)
     1. [Deploy image](screenshots/deploy-success.png)
+    1. [Pipeline environment variables image](screenshots/pipeline-env-variables.png)
 
 - AWS 
     1. [AWS RDS database overview image](screenshots/aws-rds-database-overview.png)
